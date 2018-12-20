@@ -46,7 +46,7 @@ print(np.random.rand(1))
 
 
 #10)Use NumPy to generate an array of 25 random numbers sampled from a standard normal distribution
-print(np.random.rand(25))
+print(np.random.randn(25))
 
 
 
