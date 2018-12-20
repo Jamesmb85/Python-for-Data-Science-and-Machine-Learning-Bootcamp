@@ -118,7 +118,7 @@ print(newArray)
 array([[ 2],
        [ 7],
        [12]])
-newArray = mat[0:3, 1]
+newArray = mat[ :3, 1:2]
 print(newArray)	   
 
 
