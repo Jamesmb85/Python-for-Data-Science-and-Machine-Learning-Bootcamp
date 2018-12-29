@@ -24,21 +24,21 @@ print('\n')
 # ** Recreate the plots below using the titanic dataframe. There are very few hints since most of the plots can be done with just one or two lines of code
 # and a hint would basically give away the solution. Keep careful attention to the x and y labels for hints.**
 
-# sns.jointplot(x='fare', y='age', data=titanic)
+sns.jointplot(x='fare', y='age', data=titanic)
 
-# sns.distplot(titanic['fare'], kde=False, bins=30, color='red')
+sns.distplot(titanic['fare'], kde=False, bins=30, color='red')
 
-# sns.boxplot(x='class', y='age', data=titanic, palette='rainbow')
+sns.boxplot(x='class', y='age', data=titanic, palette='rainbow')
 
-# sns.swarmplot(x='class', y='age', data=titanic, palette='Set2')
+sns.swarmplot(x='class', y='age', data=titanic, palette='Set2')
 
-# sns.countplot(x = 'sex', data= titanic)
+sns.countplot(x = 'sex', data= titanic)
 
-# sns.heatmap(titanic.corr(), cmap='coolwarm')
-# plt.title('titanic.corr()')
+sns.heatmap(titanic.corr(), cmap='coolwarm')
+plt.title('titanic.corr()')
 
-# g = sns.FacetGrid(data=titanic, col= 'sex')
-# g.map(plt.hist,'age')
+g = sns.FacetGrid(data=titanic, col= 'sex')
+g.map(plt.hist,'age')
 
 
 #need this code to show the plots
